@@ -72,12 +72,32 @@ Once the extension is installed and the server is running, you can ask Claude ab
 - "What categories of events are available?"
 
 
+## Screenshots
+
+Here are some examples of the NEU Calendar MCP server in action:
+
+### Available MCP Tools
+![Available MCP Tools](snapshots/MCP_Tools.png)
+*The NEU Calendar MCP server provides several tools for interacting with the Northeastern University calendar.*
+
+### Sample Query
+![Sample Query](snapshots/Sample_Query.png)
+*Example of a simple query asking about upcoming events at Northeastern University.*
+
+### Detailed Information Request
+![Detailed Information Request](snapshots/Detailed_Query.png)
+*Claude providing detailed information about specific events based on a selected event. In the above case, it identified that the event is about Claude itself. :)*
+
+### Tool Usage Permission
+![Tool Usage Permission](snapshots/Prompt_Permission_to_use_Tool.png)
+*Claude asking for permission before executing a calendar search tool.*
+
 ## Troubleshooting
 
 - If Claude can't connect to the server, make sure the server is running and that the port (8000) is not blocked by a firewall
 - If the server can't fetch the calendar data, check your internet connection
 - If Claude Desktop reports an extension configuration error, verify that the configuration is correct
-
+- See [CLAUDE_DESKTOP_SETUP.md](CLAUDE_DESKTOP_SETUP.md) for detailed troubleshooting steps
 
 ## License
 
