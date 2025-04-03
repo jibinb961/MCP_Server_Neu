@@ -86,7 +86,7 @@ Here are some examples of the NEU Calendar MCP server in action:
 
 ### Detailed Information Request
 ![Detailed Information Request](snapshots/Detailed_Query.png)
-*Claude providing detailed information about specific events based on a selected event. In the above case, it identified that the event is about Claude itself. :)*
+*Claude providing detailed information about specific events based on a selected event. In the above case, it identified that the event is about Claude itself. 🙂*
 
 ### Tool Usage Permission
 ![Tool Usage Permission](snapshots/Prompt_Permission_to_use_Tool.png)
