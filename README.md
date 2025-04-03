@@ -97,7 +97,6 @@ Here are some examples of the NEU Calendar MCP server in action:
 - If Claude can't connect to the server, make sure the server is running and that the port (8000) is not blocked by a firewall
 - If the server can't fetch the calendar data, check your internet connection
 - If Claude Desktop reports an extension configuration error, verify that the configuration is correct
-- See [CLAUDE_DESKTOP_SETUP.md](CLAUDE_DESKTOP_SETUP.md) for detailed troubleshooting steps
 
 ## License
 
