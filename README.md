@@ -49,9 +49,6 @@ python neu_calendar_server.py
 ```
 3. The server will start on localhost port 8000 by default
 
-You can also use the provided scripts to run the server:
-- On macOS/Linux: `./run_server.sh`
-- On Windows: `run_server.bat`
 
 ### Connecting to Claude Desktop
 
@@ -74,22 +71,13 @@ Once the extension is installed and the server is running, you can ask Claude ab
 - "Tell me about athletic events at Northeastern"
 - "What categories of events are available?"
 
-### Testing Without Claude Desktop
-
-You can test the server functionality without Claude Desktop using the included test client:
-
-```
-python test_client.py
-```
-
-The test client provides a command-line interface to interact with all the tools offered by the MCP server.
 
 ## Troubleshooting
 
 - If Claude can't connect to the server, make sure the server is running and that the port (8000) is not blocked by a firewall
 - If the server can't fetch the calendar data, check your internet connection
 - If Claude Desktop reports an extension configuration error, verify that the configuration is correct
-- See [CLAUDE_DESKTOP_SETUP.md](CLAUDE_DESKTOP_SETUP.md) for detailed troubleshooting steps
+
 
 ## License
 
