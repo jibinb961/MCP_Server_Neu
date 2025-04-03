@@ -1,11 +1,11 @@
 {
-  "mcpServers": {
-    "neu-calendar": {
-      "command": "python",
-      "args": [
-        "/Users/jibinbaby/Documents/DataEngineering/MCP/neu_calendar_mcp/neu_calendar_server.py"
-      ],
-      "env": {}
+    "mcpServers": {
+      "neu-calendar": {
+        "command": "${PYTHON_PATH}",
+        "args": [
+          "${SCRIPT_DIR}/neu_calendar_server.py"
+        ],
+        "env": {}
+      }
     }
-  }
-} 
+  } 
