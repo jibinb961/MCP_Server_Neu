@@ -84,6 +84,10 @@ Here are some examples of the NEU Calendar MCP server in action:
 ![Sample Query](snapshots/Sample_Query.png)
 *Example of a simple query asking about upcoming events at Northeastern University.*
 
+### Category Search - Sports Events
+![Category Search - Sports Events](snapshots/Category_Query.png)
+*Claude searching and displaying upcoming sports events from the Northeastern University calendar.*
+
 ### Detailed Information Request
 ![Detailed Information Request](snapshots/Detailed_Query.png)
 *Claude providing detailed information about specific events based on a selected event. In the above case, it identified that the event is about Claude itself. 🙂*
